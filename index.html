@@ -12,12 +12,14 @@
     <!-- google font lato -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
 
     <style>
         .font-lato{
             font-family: 'Lato', sans-serif; 
+
         }
+       
     </style>
 </head>
 <body class="font-lato">
@@ -71,7 +73,7 @@
 
          <!--Banner Section starts here -->
 
-    <section class="relative">
+    <section class="relative lg:mb-28 ">
 
         <!-- slider section -->
 
@@ -158,7 +160,7 @@
 
         <!-- Fruit Section -->
 
-        <div class="invisible lg:visible absolute -bottom-10 w-full drop-shadow-lg">
+        <div class=" invisible lg:visible absolute -bottom-10 w-full drop-shadow-lg">
             <div
                 class="flex justify-between text-center bg-white rounded-lg pl-12 pr-12 pt-7 pb-7 lg:mr-32 lg:ml-32 xl:mr-72 xl:ml-72">
                 <div>
@@ -188,11 +190,273 @@
         <!--Banner Section end here -->
     </header>
     <main>
+
+         <!-- Deal Section starts here -->
+
+            <!-- Deal of the Day section -->
+
+    <section class="py-12 px-5 lg:pr-28 lg:pl-28 xl:pr-60 xl:pl-60">
+        <div class="flex flex-col lg:flex-row justify-center lg:justify-between content-center mb-12">
+            <div>
+                <h3 class=" text-4xl md:text-5xl font-extrabold text-center lg:text-left text-[#121212]">Deal of the day</h3>
+                <p class="text-base font-medium text-[#12121299]  pt-6 lg:max-w-[60%] text-center lg:text-left">Contrary to popular belief, is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                </p>
+            </div>
+
+            <!-- countdown section -->
+
+            <div
+                class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center lg:justify-normal content-center pt-5 ">
+                <div class="flex flex-col space-y-2">
+                    <span class="countdown text-4xl md:text-5xl font-extrabold text-[#121212]">
+                        <span style="--value:15;"></span>⋮
+                    </span>
+                    <p class="text-base md:text-lg font-medium text-[#12121299] items-start text-left">Days</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <span class="countdown text-4xl md:text-5xl font-extrabold text-[#121212] ">
+                        <span style="--value:10;"></span>⋮
+                    </span>
+                    <p class="text-base md:text-lg font-medium text-[#12121299] items-start text-left">Hours</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <span class="countdown text-4xl md:text-5xl font-extrabold text-[#121212]">
+                        <span style="--value:24;"></span>⋮
+                    </span>
+                    <p class="text-base md:text-lg font-medium text-[#12121299] items-start text-left">Minutes</p>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <span class="countdown text-4xl md:text-5xl font-extrabold text-[#121212]">
+                        <span style="--value:52;"></span>
+                    </span>
+                    <p class="text-base md:text-lg font-medium text-[#12121299] items-start text-left">Seconds</p>
+                </div>
+            </div>
+        </div>
+        
+
+         <!-- Cards section -->
+
+     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-between lg:px-0 gap-4 md:gap-6">
+
+         <!-- card-1 -->
+
+        <div class="card bg-base-100 border border-[#1212121a] rounded-lg ">
+            <figure class="px-10 pt-10">
+                <img src="images/fruit6.png"/>
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-bold text-[#121212]">12.90$ - 18.85$</h2>
+                <div class="divider"></div>
+                <p class="text-base font-medium text-[#12121299]">Apples</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                </div>
+                <div class="card-actions">
+                    <label for="my_modal_1" class="btn btn-ghost text-[#F85559]">Details</label>
+                </div>
+            </div>
+        </div>
+
+          <!-- card-2 -->
+
+        <div class="card bg-base-100 border border-[#1212121a] rounded-lg">
+            <figure class="px-10 pt-10">
+                <img src="images/fruit7.png"/>
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-bold text-[#121212]">12.90$ - 18.85$</h2>
+                <div class="divider"></div>
+                <p class="text-base font-medium text-[#12121299]">Orange</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                </div>
+                <div class="card-actions">
+                    <label for="my_modal_2" class="btn btn-ghost text-[#F85559]">Details</label>
+                </div>
+            </div>
+        </div>
+
+          <!-- card-3 -->
+
+        <div class="card bg-base-100 border border-[#1212121a] rounded-lg">
+            <figure class="px-10 pt-10">
+                <img src="images/fruit8.png"/>
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-bold text-[#121212]">12.90$ - 18.85$</h2>
+                <div class="divider"></div>
+                <p class="text-base font-medium text-[#12121299]">Red Dragon</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                </div>
+                <div class="card-actions">
+                    <label for="my_modal_3" class="btn btn-ghost text-[#F85559]">Details</label>
+                </div>
+            </div>
+        </div>
+
+          <!-- card-4 -->
+
+        <div class="card bg-base-100 border border-[#1212121a] rounded-lg ">
+            <figure class="px-10 pt-10">
+                <img src="images/fruit9.png"/>
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title text-2xl font-bold text-[#121212]">12.90$ - 18.85$</h2>
+                <div class="divider"></div>
+                <p class="text-base font-medium text-[#12121299]">Banana</p>
+                <div class="rating">
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                </div>
+                <div class="card-actions">
+                    <label for="my_modal_4" class="btn btn-ghost text-[#F85559]">Details</label>
+                </div>
+            </div>
+        </div>
+     </div>
+      <div class="text-center pt-12">
+        <button class="btn btn-info bg-[#F85559] text-white border-0">Shop All</button>
+      </div>
+    </section>
+
+
+        <!-- Deal Section end here -->
         
 
     </main>
     <footer>
 
     </footer>
+
+    <!-- modal extra section -->
+
+    <!-- modal 1 -->
+
+    <input type="checkbox" id="my_modal_1" class="modal-toggle" />
+    <div class="modal">
+        <div class="modal-box">
+            <div class="card bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit6.png"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-4xl font-extrabold text-[#121212]">Apples</h2>
+                    <p class="text-base font-medium text-[#12121299] pt-4 pb-5">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-action justify-center">
+                <label for="my_modal_1" class="btn btn-outline border-[#F85559] text-[#F85559]">Close!</label>
+                <button class="btn btn-info bg-[#F85559] text-white border-0">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal 2 -->
+
+    <input type="checkbox" id="my_modal_2" class="modal-toggle" />
+    <div class="modal">
+        <div class="modal-box">
+            <div class="card bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit7.png"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-4xl font-extrabold text-[#121212]">Orange</h2>
+                    <p class="text-base font-medium text-[#12121299] pt-4 pb-5">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-action justify-center">
+                <label for="my_modal_2" class="btn btn-outline border-[#F85559] text-[#F85559]">Close!</label>
+                <button class="btn btn-info bg-[#F85559] text-white border-0">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal 3 -->
+
+    <input type="checkbox" id="my_modal_3" class="modal-toggle" />
+    <div class="modal">
+        <div class="modal-box">
+            <div class="card bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit8.png"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-4xl font-extrabold text-[#121212]">Red Dragon</h2>
+                    <p class="text-base font-medium text-[#12121299] pt-4 pb-5">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-action justify-center">
+                <label for="my_modal_3" class="btn btn-outline border-[#F85559] text-[#F85559]">Close!</label>
+                <button class="btn btn-info bg-[#F85559] text-white border-0">Buy Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal 4 -->
+
+    <input type="checkbox" id="my_modal_4" class="modal-toggle" />
+    <div class="modal">
+        <div class="modal-box">
+            <div class="card bg-base-100">
+                <figure class="px-10 pt-10">
+                    <img src="images/fruit9.png"/>
+                </figure>
+                <div class="card-body items-center text-center">
+                    <h2 class="card-title text-4xl font-extrabold text-[#121212]">Banana</h2>
+                    <p class="text-base font-medium text-[#12121299] pt-4 pb-5">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                    <div class="rating">
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" checked />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                        <input type="radio" name="rating-2" class="mask mask-star-2 bg-[#F85559]" />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-action justify-center">
+                <label for="my_modal_4" class="btn btn-outline border-[#F85559] text-[#F85559]">Close!</label>
+                <button class="btn btn-info bg-[#F85559] text-white border-0">Buy Now</button>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
